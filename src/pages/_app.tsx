@@ -13,7 +13,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
   return (
     <SessionProvider session={session}>
       <Head>
-        <title>Light</title>
+        <title>Home page</title>
         <meta name="description" content="This is Light"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
